@@ -1,5 +1,7 @@
 *{
-    font-family: 'Roboto', 'sans serif';
+    font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     
 }
 
@@ -16,44 +18,62 @@
 header{
     width: 100%;
     height: auto;
-    background: #009929;
+    background-image: url(./images/bebe.jpg);
     color: #ffff;
     text-align: center;
+    padding-bottom: 0;
 }
 
 header .nav{
     margin: auto;
     padding: auto;
     display: flex;
-    text-decoration: none;
+    
 }
 
-header a{
-    padding: 12px;
+nav a{
+    display: inline-block;
+    padding: 12px  20px ;
+    font-size: 16px;
     color: #fff;
-    /*background: #98ff96;*/
+    text-decoration: none;
+    margin-top: 12px;
 }
 
 header a:hover{
     /*background: #003400;*/
     border: 1px solid #ffff;
-    color: #fff;
-    border-radius: 21px;
 }
 
-.foto{
-    display: flex;
-    width: 100%;
+header img{
+    width: 230px;
     height: auto;
+    border: 1px solid #0000;
 }
 
-.foto img{
-    width: 33.3%;
+header h1{
+    background: grey;
+}
+
+header h3{
+    background: grey;
+}
+
+section{
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    /*background-image: url(https://buhoagenciadigital.com/wp-content/uploads/2022/06/Que-es-desarrollo-de-Software.jpg);
+    color: #ffff;*/
+    text-align: center;
+}
+
+section .sobre-mi{
+    width: 100%;
+    background-image: url(./images/1.jpg);
+    color: #ffff;
 }
 
 
-.info img{
-   display: block;
-   width: 3.33;
-   margin: auto;
-}
+
+
